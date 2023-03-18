@@ -1,0 +1,19 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ver{
+    background-color: #fafafa;
+    padding-top: 30px;
+}
+@media(max-width: 950px){
+    .container{
+        gap: 0px;
+    }
+}

@@ -1,0 +1,19 @@
+.screens{
+    position: absolute;
+    top: 33px;
+    height: 673.5px;
+    width: 313px;
+    left: 140.5px;
+    animation: fade 5s linear infinite;
+    animation-delay: 1.2s;
+}
+@keyframes fade {
+    0% { opacity: 1}
+    /* 50% { opacity: 0 } */
+    100% { opacity: 0}
+}
+@media(max-width: 950px){
+    .wrap img{
+        display: none;
+    }
+}

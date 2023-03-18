@@ -1,0 +1,30 @@
+.wrap{
+    background-color: #262626;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #fff;
+    top: -325px;
+    position: absolute;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.item{
+    padding: 5px 20px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item:hover{
+    background-color: #121212;
+}
+.fornowrap{
+    width: 198px;
+} 
+.fornowrap h2{
+    text-overflow: ellipsis;
+    width: 198px;
+    display: inline-block;
+    white-space: nowrap; 
+    overflow: hidden; 
+}

@@ -1,0 +1,30 @@
+.input{
+    padding: 13px 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    background-color: #fafafa;
+    width: 100%;
+    outline: none;
+    margin-top: 10px;
+}
+.wrap{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.input::placeholder{
+    color: #8f8f8f;
+}
+.input:focus::placeholder {
+    transform: translateY(-16px);
+    transition: .2s ease-in-out;
+}
+.show{
+    position: absolute;
+    right: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    top: 19px
+}

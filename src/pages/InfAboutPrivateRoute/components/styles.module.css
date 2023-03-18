@@ -1,0 +1,33 @@
+.wrap{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border: #dbdbdb 1px solid;
+    width: 100%;
+    max-width: 430px;
+    text-align: center;
+    border-radius: 3px;
+}
+.box h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.box h2{
+    font-size: 25px;
+}
+.box div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.box a{
+    display: inline-block;
+    position: relative;
+}

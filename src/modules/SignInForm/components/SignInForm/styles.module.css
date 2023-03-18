@@ -1,0 +1,52 @@
+.box{
+    padding: 15px 35px 35px 35px;
+    background-color: white;
+    border: #dbdbdb 1px solid;
+    width: 100%;
+    max-width: 430px;
+    text-align: center;
+    border-radius: 3px;
+}
+.box img{
+    display:block;
+    margin: 25px auto 10px;
+}
+.box>h2{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #DfDfDf;
+    line-height: 0.1em;
+    margin: 30px 0 20px; 
+    color: #8f8f8f;
+    font-weight: 500;
+}  
+h2 span { 
+    background:#fff; 
+} 
+.facebook{
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #375182;
+    font-weight: 600;
+}
+.signuptext{
+    margin-left: 2px;
+    color: #3288c6;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+.signuptext:hover{
+    text-decoration:none
+}
+@media(max-width: 450px){
+    .box{
+        border: none;
+        background-color: #fafafa;
+        padding: 15px 35px 15px 35px;
+    }
+}
