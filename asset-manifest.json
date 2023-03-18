@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/instagram/static/css/main.b5d0e99f.css",
+    "main.js": "/instagram/static/js/main.40478ed2.js",
+    "static/media/logo.svg": "/instagram/static/media/logo.6673af42077be22ac60e9e3c82b73e46.svg",
+    "static/media/screenshot4.png": "/instagram/static/media/screenshot4.a015f55058ad24a00428.png",
+    "static/media/screenshot1.png": "/instagram/static/media/screenshot1.d688ff1f110b88f3c0c9.png",
+    "static/media/phonephotshop.png": "/instagram/static/media/phonephotshop.831389993a1a27b73f2d.png",
+    "static/media/screenshot3.png": "/instagram/static/media/screenshot3.66d6eaaf896694188857.png",
+    "static/media/logo_on_black.svg": "/instagram/static/media/logo_on_black.6f248e64b7c8fe5db89571ae5e0718bb.svg",
+    "static/media/screenshot2.png": "/instagram/static/media/screenshot2.a8b4d779fa1026a205a2.png",
+    "index.html": "/instagram/index.html",
+    "main.b5d0e99f.css.map": "/instagram/static/css/main.b5d0e99f.css.map",
+    "main.40478ed2.js.map": "/instagram/static/js/main.40478ed2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d0e99f.css",
+    "static/js/main.40478ed2.js"
+  ]
+}
